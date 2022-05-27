@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    height: 5202px;
+    width: 100%;
+    position: relative;
+    align-items: stretch;  
+
+}
+
+.header{
+    display: flex;
+    background: #FFFFFF;
+    position: absolute;
+    border-bottom-left-radius: 200px;
+    width: 100%;
+    height: 916px;
+    left: 0px;
+    top: 0px;   
+       
+}
+.top{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    font-family:poppins;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 142px;
+    gap: 142px;
+
+    position: absolute;
+    width: 1440px;
+    height: 2694px;
+    left: 0px;
+    top: 917px;
+
+}
+.tonic{
+    align-self: center; 
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 1156px;
+    height: 496px;
+
+}
+.stories{
+    align-self: center; 
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 1156px;
+    height: 496px;
+
+}
+.facebook{
+    align-self: center; 
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 1156px;
+    height: 496px;
+
+}
+.navigation{
+    align-self: center; 
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 1156px;
+    height: 496px;
+
+}
+
+.about_me{
+    display: flex;
+    background: #FFFFFF;
+    position: absolute;
+    border-top-right-radius: 200px;
+    width: 100%;
+    height: 916px;
+    left: 0px;
+    top: 3610px;   
+       
+}
+.contact{
+    display: flex;
+    background:  #6070FF;
+    position: absolute;
+    border-top-left-radius: 200px;
+    width: 100%;
+    height: 916px;
+    left: 0px;
+    top: 4286px;   
+       
+}
